@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>動物單字</title>
+  <title>動物</title>
   <style>
     @font-face {
       font-family: 'Iansui';
@@ -25,12 +25,20 @@
     h1 {
       font-size: 28px;
       text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .jp-sub {
+      font-size: 18px;
+      color: #888;
+      text-align: center;
       margin-bottom: 30px;
+      font-family: 'Huninn', 'Noto Sans JP', sans-serif;
     }
 
     table {
       width: 100%;
-      max-width: 800px;
+      max-width: 900px;
       margin: 0 auto 50px;
       border-collapse: collapse;
       background-color: #fff;
@@ -44,6 +52,27 @@
       border-bottom: 1px solid #eee;
       text-align: left;
       font-size: 17px;
+    }
+
+    /* 欄位寬度統一 */
+    table th:nth-child(1),
+    table td:nth-child(1) {
+      width: 22%;
+    }
+
+    table th:nth-child(2),
+    table td:nth-child(2) {
+      width: 22%;
+    }
+
+    table th:nth-child(3),
+    table td:nth-child(3) {
+      width: 27%;
+    }
+
+    table th:nth-child(4),
+    table td:nth-child(4) {
+      width: 27%;
     }
 
     th {
@@ -84,7 +113,8 @@
   </style>
 </head>
 <body>
-  <h1>動物單字</h1>
+  <h1>動物</h1>
+  <div class="jp-sub">どうぶつ</div>
 
   <table>
     <tr><th>中文</th><th>漢字</th><th>假名</th><th>羅馬拼音</th></tr>
