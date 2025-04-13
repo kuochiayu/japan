@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>單字分類</title>
+  <style>
+    @font-face {
+      font-family: 'Iansui';
+      src: url('Iansui-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Huninn';
+      src: url('jf-openhuninn-2.0.ttf') format('truetype');
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: 'Iansui', 'Noto Sans JP', sans-serif;
+      background-color: #fffdf8;
+      color: #444;
+    }
+
+    h1 {
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .vocab-button {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      font-family: 'Huninn', 'Noto Sans TC', sans-serif;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 12px;
+      border: 1px solid #e6d8b7;
+      background-color: #fdf6e3;
+      color: #4b3832;
+      height: 70px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+    }
+
+    .vocab-button:hover {
+      background-color: #faebc5;
+      transform: translateY(-2px);
+    }
+
+    .jp-label {
+      font-size: 14px;
+      color: #777;
+      margin-top: 4px;
+    }
+
+    .back-button {
+      font-family: 'Huninn', 'Noto Sans TC', sans-serif;
+      padding: 12px 30px;
+      font-size: 16px;
+      border-radius: 10px;
+      border: 1px solid #c1dfe4;
+      background-color: #e3f2f5;
+      color: #2b4d52;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+      margin-top: 50px;
+    }
+
+    .back-button:hover {
+      background-color: #d3edf2;
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+  <h1>單字分類</h1>
+  <div class="grid">
+    <a href="vocab-color.html" class="vocab-button">顏色<br><span class="jp-label">いろ</span></a>
+    <a href="vocab-animal.html" class="vocab-button">動物<br><span class="jp-label">どうぶつ</span></a>
+    <a href="vocab-fruit.html" class="vocab-button">水果<br><span class="jp-label">くだもの</span></a>
+    <a href="vocab-vegetable.html" class="vocab-button">蔬菜<br><span class="jp-label">やさい</span></a>
+    <a href="vocab-country.html" class="vocab-button">國家<br><span class="jp-label">くに</span></a>
+    <a href="vocab-job.html" class="vocab-button">職業<br><span class="jp-label">しょくぎょう</span></a>
+    <a href="vocab-transport.html" class="vocab-button">交通工具<br><span class="jp-label">こうつう</span></a>
+    <a href="vocab-body.html" class="vocab-button">身體部位<br><span class="jp-label">からだ</span></a>
+    <a href="vocab-weather.html" class="vocab-button">天氣<br><span class="jp-label">てんき</span></a>
+    <a href="vocab-family.html" class="vocab-button">家庭成員<br><span class="jp-label">かぞく</span></a>
+    <a href="vocab-week.html" class="vocab-button">星期<br><span class="jp-label">ようび</span></a>
+    <a href="vocab-month.html" class="vocab-button">月份<br><span class="jp-label">がつ</span></a>
+    <a href="vocab-school.html" class="vocab-button">學校<br><span class="jp-label">がっこう</span></a>
+    <a href="vocab-clothing.html" class="vocab-button">服飾<br><span class="jp-label">ふく</span></a>
+    <a href="vocab-action.html" class="vocab-button">動作<br><span class="jp-label">うごき</span></a>
+    <a href="vocab-adjective.html" class="vocab-button">形容詞<br><span class="jp-label">けいようし</span></a>
+    <a href="vocab-number.html" class="vocab-button">數字<br><span class="jp-label">すうじ</span></a>
+    <a href="vocab-food.html" class="vocab-button">食物<br><span class="jp-label">たべもの</span></a>
+    <a href="vocab-drink.html" class="vocab-button">飲料<br><span class="jp-label">のみもの</span></a>
+    <a href="vocab-daily.html" class="vocab-button">日常用品<br><span class="jp-label">にちようひん</span></a>
+  </div>
+
+  <div style="text-align: center;">
+    <button class="back-button" onclick="location.href='index.html'">返回首頁</button>
+  </div>
+</body>
+</html>

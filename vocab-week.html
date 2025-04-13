@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>星期單字</title>
+  <style>
+    @font-face {
+      font-family: 'Iansui';
+      src: url('Iansui-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Huninn';
+      src: url('jf-openhuninn-2.0.ttf') format('truetype');
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: 'Iansui', 'Noto Sans JP', sans-serif;
+      background-color: #fffdf8;
+      color: #444;
+    }
+
+    h1 {
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto 50px;
+      border-collapse: collapse;
+      background-color: #fff;
+      border: 1px solid #e6d8b7;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #eee;
+      text-align: left;
+      font-size: 18px;
+    }
+
+    th {
+      background-color: #fdf6e3;
+      font-family: 'Huninn', 'Noto Sans TC', sans-serif;
+    }
+
+    td {
+      font-family: 'Iansui', 'Noto Sans JP', sans-serif;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .button-row {
+      text-align: center;
+    }
+
+    .nav-button {
+      font-family: 'Huninn', 'Noto Sans TC', sans-serif;
+      padding: 10px 24px;
+      font-size: 16px;
+      border-radius: 10px;
+      border: 1px solid #c1dfe4;
+      background-color: #e3f2f5;
+      color: #2b4d52;
+      margin: 0 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+    }
+
+    .nav-button:hover {
+      background-color: #d3edf2;
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+  <h1>星期單字</h1>
+
+  <table>
+    <tr><th>中文</th><th>漢字</th><th>假名</th></tr>
+    <tr><td>星期日</td><td>日曜日</td><td>にちようび</td></tr>
+    <tr><td>星期一</td><td>月曜日</td><td>げつようび</td></tr>
+    <tr><td>星期二</td><td>火曜日</td><td>かようび</td></tr>
+    <tr><td>星期三</td><td>水曜日</td><td>すいようび</td></tr>
+    <tr><td>星期四</td><td>木曜日</td><td>もくようび</td></tr>
+    <tr><td>星期五</td><td>金曜日</td><td>きんようび</td></tr>
+    <tr><td>星期六</td><td>土曜日</td><td>どようび</td></tr>
+    <tr><td>今天</td><td>今日</td><td>きょう</td></tr>
+    <tr><td>明天</td><td>明日</td><td>あした</td></tr>
+    <tr><td>昨天</td><td>昨日</td><td>きのう</td></tr>
+    <tr><td>後天</td><td>明後日</td><td>あさって</td></tr>
+    <tr><td>前天</td><td>一昨日</td><td>おととい</td></tr>
+  </table>
+
+  <div class="button-row">
+    <button class="nav-button" onclick="location.href='vocab.html'">返回分類</button>
+    <button class="nav-button" onclick="location.href='index.html'">返回首頁</button>
+  </div>
+</body>
+</html>

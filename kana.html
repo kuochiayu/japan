@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>五十音對照表</title>
+  <style>
+    @font-face {
+      font-family: 'Iansui';
+      src: url('Iansui-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      font-family: 'Iansui', 'Noto Sans JP', sans-serif;
+      background-color: #fffdf8;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: #444;
+    }
+
+    table {
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+      border-collapse: collapse;
+      text-align: center;
+      background-color: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    th, td {
+      padding: 16px;
+      font-size: 18px;
+      border-bottom: 1px solid #eee;
+    }
+
+    th {
+      background-color: #e0e7ff;
+      color: #333;
+    }
+
+    .row-label {
+      background-color: #f0f4f8;
+      font-weight: bold;
+    }
+
+    .kana-cell {
+      font-size: 20px;
+    }
+
+    .kana-cell span {
+      display: block;
+      font-size: 16px;
+      color: #888;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>五十音對照表</h1>
+  <table>
+    <tr>
+      <th>行</th>
+      <th>あ</th><th>い</th><th>う</th><th>え</th><th>お</th>
+    </tr>
+    <tr>
+      <td class="row-label">あ行</td>
+      <td class="kana-cell">あ<span>ア a</span></td>
+      <td class="kana-cell">い<span>イ i</span></td>
+      <td class="kana-cell">う<span>ウ u</span></td>
+      <td class="kana-cell">え<span>エ e</span></td>
+      <td class="kana-cell">お<span>オ o</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">か行</td>
+      <td class="kana-cell">か<span>カ ka</span></td>
+      <td class="kana-cell">き<span>キ ki</span></td>
+      <td class="kana-cell">く<span>ク ku</span></td>
+      <td class="kana-cell">け<span>ケ ke</span></td>
+      <td class="kana-cell">こ<span>コ ko</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">さ行</td>
+      <td class="kana-cell">さ<span>サ sa</span></td>
+      <td class="kana-cell">し<span>シ shi</span></td>
+      <td class="kana-cell">す<span>ス su</span></td>
+      <td class="kana-cell">せ<span>セ se</span></td>
+      <td class="kana-cell">そ<span>ソ so</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">た行</td>
+      <td class="kana-cell">た<span>タ ta</span></td>
+      <td class="kana-cell">ち<span>チ chi</span></td>
+      <td class="kana-cell">つ<span>ツ tsu</span></td>
+      <td class="kana-cell">て<span>テ te</span></td>
+      <td class="kana-cell">と<span>ト to</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">な行</td>
+      <td class="kana-cell">な<span>ナ na</span></td>
+      <td class="kana-cell">に<span>ニ ni</span></td>
+      <td class="kana-cell">ぬ<span>ヌ nu</span></td>
+      <td class="kana-cell">ね<span>ネ ne</span></td>
+      <td class="kana-cell">の<span>ノ no</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">は行</td>
+      <td class="kana-cell">は<span>ハ ha</span></td>
+      <td class="kana-cell">ひ<span>ヒ hi</span></td>
+      <td class="kana-cell">ふ<span>フ fu</span></td>
+      <td class="kana-cell">へ<span>ヘ he</span></td>
+      <td class="kana-cell">ほ<span>ホ ho</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">ま行</td>
+      <td class="kana-cell">ま<span>マ ma</span></td>
+      <td class="kana-cell">み<span>ミ mi</span></td>
+      <td class="kana-cell">む<span>ム mu</span></td>
+      <td class="kana-cell">め<span>メ me</span></td>
+      <td class="kana-cell">も<span>モ mo</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">や行</td>
+      <td class="kana-cell">や<span>ヤ ya</span></td>
+      <td class="kana-cell">—</td>
+      <td class="kana-cell">ゆ<span>ユ yu</span></td>
+      <td class="kana-cell">—</td>
+      <td class="kana-cell">よ<span>ヨ yo</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">ら行</td>
+      <td class="kana-cell">ら<span>ラ ra</span></td>
+      <td class="kana-cell">り<span>リ ri</span></td>
+      <td class="kana-cell">る<span>ル ru</span></td>
+      <td class="kana-cell">れ<span>レ re</span></td>
+      <td class="kana-cell">ろ<span>ロ ro</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">わ行</td>
+      <td class="kana-cell">わ<span>ワ wa</span></td>
+      <td class="kana-cell">—</td>
+      <td class="kana-cell">—</td>
+      <td class="kana-cell">—</td>
+      <td class="kana-cell">を<span>ヲ o</span></td>
+    </tr>
+    <tr>
+      <td class="row-label">撥音</td>
+      <td class="kana-cell">ん<span>ン n</span></td>
+      <td colspan="4"></td>
+    </tr>
+  </table>
+</body>
+</html>

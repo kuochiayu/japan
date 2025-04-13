@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>日文學習網站</title>
+  <style>
+    @font-face {
+      font-family: 'Iansui';
+      src: url('Iansui-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Huninn';
+      src: url('jf-openhuninn-2.0.ttf') format('truetype');
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Iansui', 'Noto Sans JP', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color:#fffdf8;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #444;
+      letter-spacing: 2px;
+    }
+
+    .menu-button {
+      font-family: 'Huninn', 'Noto Sans TC', sans-serif;
+      padding: 14px 36px;
+      font-size: 18px;
+      margin: 12px;
+      border-radius: 12px;
+      border: 1px solid #e6d8b7;
+      background-color: #fdf6e3;
+      color: #4b3832;
+      width: 200px;
+      height: 60px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease-in-out;
+    }
+
+    .menu-button:hover {
+      background-color: #faebc5;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <h1>日文學習選單</h1>
+  <button class="menu-button" onclick="location.href='kana.html'">五十音</button>
+  <button class="menu-button" onclick="location.href='vocab.html'">單字</button>
+</body>
+</html>
